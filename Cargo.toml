@@ -1,0 +1,12 @@
+[package]
+name = "csgogcprotos"
+version = "0.1.0"
+authors = ["Gbps <gbps@ctf.re>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[build-dependencies]
+protoc-rust = "2.0"
+
+[dependencies]
+protobuf = { version = "2", features = ["with-bytes"] }
